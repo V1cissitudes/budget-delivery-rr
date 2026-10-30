@@ -1,0 +1,141 @@
+{
+ "n": {
+  "hi": 228,
+  "lo": 171
+ },
+ "reps": 3,
+ "B": 300,
+ "seed": 1,
+ "rho": 0.85,
+ "cells": {
+  "iii_null|u0": {
+   "truth": {
+    "T": 0.0,
+    "dH": 0.0,
+    "J": 0.0,
+    "R0": 29.7,
+    "R1": 29.7,
+    "G": 0.0
+   },
+   "rates_pct": {
+    "H1": {
+     "below": 100.0
+    },
+    "H2": {
+     "undetermined": 100.0
+    },
+    "H2b": {
+     "undetermined": 100.0
+    },
+    "H3": {
+     "undetermined": 100.0
+    }
+   },
+   "mean_max_unknown_pct": 0.0
+  },
+  "iii_null|mcar5": {
+   "truth": {
+    "T": 0.0,
+    "dH": 0.0,
+    "J": 0.0,
+    "R0": 29.7,
+    "R1": 29.7,
+    "G": 0.0
+   },
+   "rates_pct": {
+    "H1": {
+     "below": 100.0
+    },
+    "H2": {
+     "undetermined": 100.0
+    },
+    "H2b": {
+     "undetermined": 100.0
+    },
+    "H3": {
+     "undetermined": 100.0
+    }
+   },
+   "mean_max_unknown_pct": 6.4
+  },
+  "iii_null|mcar8": {
+   "truth": {
+    "T": 0.0,
+    "dH": 0.0,
+    "J": 0.0,
+    "R0": 29.7,
+    "R1": 29.7,
+    "G": 0.0
+   },
+   "rates_pct": {
+    "H1": {
+     "below": 66.7,
+     "fuse": 33.3
+    },
+    "H2": {
+     "undetermined": 66.7,
+     "fuse": 33.3
+    },
+    "H2b": {
+     "undetermined": 66.7,
+     "fuse": 33.3
+    },
+    "H3": {
+     "undetermined": 66.7,
+     "fuse": 33.3
+    }
+   },
+   "mean_max_unknown_pct": 9.7
+  },
+  "iii_null|capped_bats8_sil2": {
+   "truth": {
+    "T": 0.0,
+    "dH": 0.0,
+    "J": 0.0,
+    "R0": 29.7,
+    "R1": 29.7,
+    "G": 0.0
+   },
+   "rates_pct": {
+    "H1": {
+     "below": 100.0
+    },
+    "H2": {
+     "undetermined": 100.0
+    },
+    "H2b": {
+     "undetermined": 100.0
+    },
+    "H3": {
+     "undetermined": 100.0
+    }
+   },
+   "mean_max_unknown_pct": 5.0
+  },
+  "iii_null|salvaged_bats15": {
+   "truth": {
+    "T": 0.0,
+    "dH": 0.0,
+    "J": 0.0,
+    "R0": 29.7,
+    "R1": 29.7,
+    "G": 0.0
+   },
+   "rates_pct": {
+    "H1": {
+     "below": 100.0
+    },
+    "H2": {
+     "undetermined": 100.0
+    },
+    "H2b": {
+     "undetermined": 100.0
+    },
+    "H3": {
+     "undetermined": 100.0
+    }
+   },
+   "mean_max_unknown_pct": 3.7
+  }
+ }
+}

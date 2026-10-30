@@ -1,0 +1,25 @@
+{
+ "status": "DRAFT (prereg v4 §7.3): a formal run refuses to start until confirmed_by_author is true; the dev dry run may use it unconfirmed",
+ "requested_model": "gemini/gemini-3-flash-preview",
+ "confirmed_by_author": true,
+ "confirmation_note": "author 2026-10-20: '价目登记表标为已确认'. Basis: Google pricing page matches (checked 2026-10-19) and the dev dry run (936 calls, local ledger US$4.5431) matched AI Studio spend SGD 5.80 (implied rate ~1.277). See docs/d1_bridge_dryrun_report_2026-10-20.md §6",
+ "versions": {
+  "gemini-3-flash-preview": {
+   "input_per_token": 5e-07,
+   "output_per_token": 3e-06,
+   "cache_read_per_token": 5e-08,
+   "source": "litellm 1.106.0 local cost map ('gemini/gemini-3-flash-preview' and 'gemini-3-flash-preview', identical) AND Google public pricing page https://ai.google.dev/gemini-api/docs/pricing (last updated 2026-10-16 UTC; checked by Claude 2026-10-19): paid tier input $0.50/1M (text/image/video), output $3.00/1M 'including thinking tokens', context caching $0.05/1M (+ $1.00/1M tokens/hour storage, explicit caching only; not used here); no long-context tier listed. Values match. Still to do: dry-run bill reconciliation"
+  }
+ },
+ "provisional_usd_per_unpriced_call": 1.0,
+ "provisional_rationale": "accounting reservation, NOT an upper bound on the unknown call's cost (an unregistered version may have a different price): the batch pauses at the first unpriced call, and the reservation is replaced by the billed amount when the author reconciles. For orientation only: at the registered price a 1,048,576-token prompt plus 65,536 output tokens would cost about $0.72",
+ "relative_tolerance": 0.01,
+ "public_price_check": {
+  "date": "2026-10-19",
+  "by": "Claude",
+  "url": "https://ai.google.dev/gemini-api/docs/pricing",
+  "page_last_updated": "2026-10-16",
+  "match": true,
+  "model_status": "pricing page calls it 'Our legacy Flash model'; deprecations page (last updated 2026-10-12): released 2025-12-17, 'No shutdown date announced', recommended replacement gemini-3.6-flash"
+ }
+}

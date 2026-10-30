@@ -1,0 +1,106 @@
+{
+ "what": "Second seal of the bridge experiment: pre-registration v4 (unchanged) + addendum 1 (sealed now) + bridge code after the pre-run external reviews",
+ "sealed_at": "2026-10-20T17:3x+0800 (record written 2026-10-20 afternoon)",
+ "supersedes_code_of": {
+  "record": "docs/prereg/2026-10-20_bridge_seal_record.json",
+  "sha256": "a218f1982461834cce236220d81e35498474afc56da687b594117d7eba0e6016",
+  "bridge_code_sha256": "d3fe661d82d86b5da8268d0b7e136cf5431b90f61facbdabbf761ff1cc1e5965"
+ },
+ "author_instructions": [
+  "全部改完后与 Gemini G1、G2 的结果一起，再重新封存一次。（2026-10-20）",
+  "I1 和 I2 都按你的推荐定（2026-10-20）",
+  "Write a very small Codex check prompt that only verifies whether fixes A and B pass, then seal.（2026-10-20）",
+  "作者转来的验收意见（2026-10-20）：范围锁在 B 的两处漏洞，修完做一次定向验收；这些测试通过、代码身份与补遗一致，就结束审核、封存开跑。"
+ ],
+ "review_trail": [
+  "docs/reviews/2026-10-20_codex_bridge_v4_C1.md, C2 (pasted), docs/reviews/2026-10-20_codex_bridge_v4_C3.md",
+  "docs/reviews/2026-10-20_claude_bridge_failure_path_review.md",
+  "Gemini G1 (design/identification) and G2 (wording): pasted by the author, both 'can run'",
+  "docs/reviews/2026-10-20_codex_bridge_panoramic.md (fix first: 6 findings)",
+  "docs/reviews/2026-10-20_codex_bridge_fix_closure.md (not passed: A, B)",
+  "docs/reviews/2026-10-20_codex_bridge_fix_AB_check.md (A passed; B not passed: 2 gaps) -> fixed; closed by Claude's targeted acceptance tests per the author-forwarded criteria (addendum §13), no further Codex check",
+  "processing tables: docs/reviews/2026-10-20_bridge_v4_review_processing.md"
+ ],
+ "sha256": {
+  "prereg": "69e94eb9e0c64a49106d3e5cfc99b5262c011ff19d6cc6729ab21f51b368031a",
+  "addendum1": "82d733e35a2069fd8338a82f0b5e95edfcc0596e8c2ca43d15561b3b6290f087",
+  "selection": "b51a5d1ac0e8f81cbdeaba15a610eb86be8cee0f3beb40d3faff4f8fb43c4d2c",
+  "tasks_meta": "c386483f78919bd6a7f2a54437d7ef86b49ede06fde9bf6b138fbefb112ba761",
+  "images": "a16eb6f19520b92d9e88c943b8dc81688b60bcca1554d9a316e54b6204384ff6",
+  "pricing_registry": "7506b35ae29d91709a0d16b2f7c4902e3d0499c8caff7c25c409b84e8e9807ce",
+  "mini_env_lock": "f39126ae5614b72116306af116ad0ed9a5422e0d8caed1ccc46bc085d65902db",
+  "public_config": "8884ab4a9fc666e1b323800dec6c2e8ab1031f8df48328179264fff9e540c8b1",
+  "bridge_readme": "c5c7e147636de2eab3957219bc697fe72100626c44b36f936bdc3a3d2c768773",
+  "formal_launch_script": "bec925dd82dffed509718e0e3cbf8296e71e9eaaf7f5639193c1fccf785c717e"
+ },
+ "paths": {
+  "prereg": "docs/prereg/2026-10-18_bridge_prereg_DRAFT.md (sealed 2026-10-20; unchanged)",
+  "addendum1": "docs/prereg/2026-10-20_bridge_addendum1_DRAFT.md (file name kept; sealed with this record)",
+  "selection": "docs/prereg/2026-10-18_bridge_selection_DRAFT.json (desktop copy: ~/code/d1-pilot/bridge_dev/, same sha256)",
+  "tasks_meta": "data/bridge_dev_dryrun/bridge_tasks_meta.json (desktop: ~/code/d1-pilot/bridge_dev/bridge_tasks_meta.json, same sha256)",
+  "images": "desktop ~/code/d1-pilot/bridge_images.json (105 pins; all equal to local image Ids on 2026-10-20; addendum §8)",
+  "formal_launch_script": "data/bridge_formal_launch/run_formal.sh (= desktop ~/code/d1-pilot/bridge_formal/run_formal.sh)"
+ },
+ "bridge_code_sha256": "d1da6e7a8589bb3e24a41fd201f39c1b53a008f6409979d26b920ad48d478e57",
+ "bridge_code_definition": "bridge/ top-level *.py and *.json except pricing_registry.json, plus requirements-mini.lock.txt (identity.bridge_code_sha256)",
+ "bridge_code_files": {
+  "agent.py": "857a00afac5e0f04df71b3c05431dfe6f39f986b36f59d2a0aa684772f578a24",
+  "analysis_rules.py": "33ae864ff16b4eacba1301bec5517f75f9449640b58299955d753dfd0c60dfb8",
+  "analyze.py": "da26e7ca11d4cbe22fce77bf8a2e6999152afe7b73a9fd33da73b38401491ff9",
+  "batch.py": "896f464aaeb0abc79e495ea7e24108c52249da1e6bb1ff468278217c9b3bbd77",
+  "config_public_gemini3flash.json": "8884ab4a9fc666e1b323800dec6c2e8ab1031f8df48328179264fff9e540c8b1",
+  "evaluate.py": "99185e69fbf4dc85367d1564857dc5f003eb02e943c867535a59f05325bd38c5",
+  "identity.py": "ddb38bd25800dd362087d3baad805c0f9f6937ef48cacfc52b9549a13644ee12",
+  "model_log.py": "fcb035ad3b8de1c53ff1c427af9747f6637169a8f9aa91e5284312d77f89859e",
+  "outcome.py": "aa959224731f6de23c1c4c5058acaed12c1d8e5329a1a915764160cb644e645d",
+  "prompts.py": "58d5ba067565335616fe63a00995e7f52d830d3e4ae8e6a5e3c2c94a7c9f3899",
+  "run_one.py": "1d6eb9e252fbc84a52e7545206e448f298ed85dca224403849e24e08f7a36088",
+  "snapshot.py": "cb345b7df47b6d073546d4288d44c40498040b04c2ba3a8624603bc83f883c1c",
+  "spend.py": "87a53139c2517a8b8f67431f783808ca566aa26924821ab48ac75fe5e1f23729",
+  "requirements-mini.lock.txt": "f39126ae5614b72116306af116ad0ed9a5422e0d8caed1ccc46bc085d65902db"
+ },
+ "bridge_tools_files_not_in_identity": {
+  "check_b1_docker.py": "de41b98249b6af618e5ed4dd5be1f34775ed4072440ed098fbd806b5691e518b",
+  "check_fb1_docker.py": "2f25535b8e69abea168ea819ea91cdd7c374df85557cfb59a5fb663753068b86",
+  "delete_images.py": "225a5959b321268af1091e418757352b9411cc45c629bacd006294e2c018bf1b",
+  "make_tasks_meta.py": "e8f126a7a1988a323bc938e318587b28fd6457e58383cb2e88e8b2629e43e9f7",
+  "probe_pricing.py": "22903134ede73dde4f46172b7e3255bdb4c1b22a0d44170604f9a78593b37eff",
+  "pull_bridge.py": "f0af09eb5c4a995dca6777e9ab55cf3f3fd6c4f9720fcfcaeff8afada0f2dc34"
+ },
+ "d1_code_sha256": "ce9fe5e4a6282975e696eb2ecdd7be113d7b1464a5acee1d087bee52109593c3",
+ "rules_version": "bridge-rules-v4.1",
+ "rule_constants": {
+  "THRESH": 0.1,
+  "MAX_UNKNOWN": 0.1,
+  "MIN_EVENTS": 5,
+  "ALPHA": 0.05,
+  "ALPHA_Q": 0.025,
+  "SIGN_P": 0.025,
+  "STRICT_BAND": 0.05,
+  "STRICT_SHARE": 0.8
+ },
+ "tests_offline": {
+  "total": "139/139 on Mac and desktop (2026-10-20)",
+  "files": {
+   "fakes.py": "ab2f62bb78bc921847302f6c610806edee68a942b694ac69def15a19fcc89b7e",
+   "test_analysis_rules.py": "08e30569503563e7af25d315a931d3fba92b90f238d7bd9582ada3e2ee34794e",
+   "test_analyze.py": "84724c8085f8536f16d02c470c8f0e3306fdd1fdd3af0f4c8021ac6cb37efe48",
+   "test_batch.py": "28b80511429fbecfab3c064a60f65526a4dd3fcbf735c8198111b67dabc368df",
+   "test_bridge_agent.py": "2b177d709dc1d4f22c6187d025d2bc5a1eed902987111cc049012b27056b7e18",
+   "test_end_to_end.py": "a62b076863a845162636c8a73ee76f2591d29d873af0e32819e5d4c4f39c4de5",
+   "test_evaluate.py": "e252adebbbb9203969c59aaefa0a8789105599f39056e774f0ddfedb588ec855",
+   "test_fb1.py": "be4d2225cf719f72d79bdff1c31200792258890ea460039a127757a8ddb6e3f3",
+   "test_tools.py": "433f6180f59160e083a894940e2ad93c286380ffabbacfc9a959bed19d02c9bd"
+  }
+ },
+ "real_docker_checks_desktop": {
+  "B1 container gone (tools/check_b1_docker.py)": "pass under 98cd3cca (run_one/agent/snapshot unchanged since): control 50 calls; killed / keep-alive expired -> ENG_FAIL CONTAINER_NOT_RUNNING after call 3; no leftover container; data/bridge_b1_check_2026-10-20/result.json (first passing run under 1868093c)",
+  "F-b1 stray process (tools/check_fb1_docker.py)": "pass under 98cd3cca: killed, re-snapshotted, new non-UTF-8 file dropped"
+ },
+ "blinding": "No sampled (100-task) trajectory has been run (desktop ~/code/d1-pilot/bridge_formal/ holds only the launch script). Only the 5 dev tasks (dev data, not analysed) and one pricing probe ran.",
+ "budget_at_seal": "Prepaid Gemini API balance about SGD 152 (~US$119); expected formal spend SGD 116-142; AI Studio monthly cap SGD 200; auto-recharge off; software stop line $200 (prereg C8).",
+ "pending": [
+  "formal-run start needs the author's explicit go"
+ ],
+ "not_part_of_seal": "pricing_registry.json may be EXTENDED (new confirmed version strings) during the run; prices of registered versions may not change (checked by analyze.registry_check)"
+}

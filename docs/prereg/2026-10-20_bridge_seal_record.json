@@ -1,0 +1,80 @@
+{
+ "what": "Seal of the bridge experiment pre-registration v4 and the bridge code (four arms, 100 tasks, k=50)",
+ "sealed_at": "2026-10-20T01:24:03+0800",
+ "author_instruction": "现在封存预登记 v4 和 bridge 代码（写封存记录）；同时按方案 B 删除 126 张旧镜像、按新停止线下载 68 张。（作者，2026-10-20）",
+ "prior_author_confirmations": [
+  "候选值 C1–C9、C11 按预登记 v4 状态表里的推荐值确认（C6 符号检验作为辅助保守门槛）（2026-10-20）",
+  "价目登记表标为已确认（2026-10-20）",
+  "按 B，三项都批（2026-10-20）",
+  "四臂吧（2026-10-19）"
+ ],
+ "sha256": {
+  "prereg": "69e94eb9e0c64a49106d3e5cfc99b5262c011ff19d6cc6729ab21f51b368031a",
+  "selection": "b51a5d1ac0e8f81cbdeaba15a610eb86be8cee0f3beb40d3faff4f8fb43c4d2c",
+  "pricing_registry": "7506b35ae29d91709a0d16b2f7c4902e3d0499c8caff7c25c409b84e8e9807ce",
+  "mini_env_lock": "f39126ae5614b72116306af116ad0ed9a5422e0d8caed1ccc46bc085d65902db",
+  "tasks_meta": "c386483f78919bd6a7f2a54437d7ef86b49ede06fde9bf6b138fbefb112ba761",
+  "public_config": "8884ab4a9fc666e1b323800dec6c2e8ab1031f8df48328179264fff9e540c8b1",
+  "bridge_readme": "55519d5550845f7317f380314809c0c697f4d0b3166f1cd2fc38f0a76b76aed9"
+ },
+ "paths": {
+  "prereg": "docs/prereg/2026-10-18_bridge_prereg_DRAFT.md",
+  "selection": "docs/prereg/2026-10-18_bridge_selection_DRAFT.json",
+  "pricing_registry": "bridge/pricing_registry.json",
+  "mini_env_lock": "bridge/requirements-mini.lock.txt",
+  "tasks_meta": "data/bridge_dev_dryrun/bridge_tasks_meta.json",
+  "public_config": "bridge/config_public_gemini3flash.json",
+  "bridge_readme": "bridge/README.md"
+ },
+ "bridge_code_sha256": "d3fe661d82d86b5da8268d0b7e136cf5431b90f61facbdabbf761ff1cc1e5965",
+ "bridge_code_definition": "bridge/ top-level *.py and *.json except pricing_registry.json (identity.bridge_code_sha256)",
+ "bridge_code_files": {
+  "agent.py": "6ce3defaeff04abc2d2174047d2bd52820334351fd211ca5615f62e8ccf00e0e",
+  "analysis_rules.py": "97409772d7cf003ce69d2ef4fa4759753a7547ab7b68880874e61f674d908c69",
+  "analyze.py": "dde97b81125fa9968a34271375d633fcc6165b4628139147d9c6b33d4374d829",
+  "batch.py": "cdac1592db5b15ddf556fd471866dfcd3b23832673241cf5efed055a3b78120b",
+  "config_public_gemini3flash.json": "8884ab4a9fc666e1b323800dec6c2e8ab1031f8df48328179264fff9e540c8b1",
+  "evaluate.py": "f94d21a4319b9fca1038c6f8c255d5a6b5be40d42b7704017d7d4a3e94293cd6",
+  "identity.py": "4bd3e0f837e47ab4ee531c3ee4488420e5c476bc91d786aabb112f7791f8eef8",
+  "model_log.py": "cf25a6b56db3c1e70f93d2504139694d8819551ebe81dd3ad3b24ff7afb1c269",
+  "outcome.py": "aa959224731f6de23c1c4c5058acaed12c1d8e5329a1a915764160cb644e645d",
+  "prompts.py": "58d5ba067565335616fe63a00995e7f52d830d3e4ae8e6a5e3c2c94a7c9f3899",
+  "run_one.py": "85a5e30f309d3b68c601a9befefc603b30a881fcc04261eca29dc2aa6901e32e",
+  "snapshot.py": "d8f1f0225f05669b4a6b6468a60c07fb4d18f97afa228a617f7682ba26b3729b",
+  "spend.py": "2cdb69c4c60a317e6e147c02aae774e0037d4383d912033da2a7b0f5ffd714c4"
+ },
+ "d1_code_sha256": "ce9fe5e4a6282975e696eb2ecdd7be113d7b1464a5acee1d087bee52109593c3",
+ "rules_version": "bridge-rules-v4-draft",
+ "rule_constants": {
+  "THRESH": 0.1,
+  "MAX_UNKNOWN": 0.1,
+  "MIN_EVENTS": 5,
+  "ALPHA": 0.05,
+  "ALPHA_Q": 0.025,
+  "SIGN_P": 0.025,
+  "STRICT_BAND": 0.05,
+  "STRICT_SHARE": 0.8
+ },
+ "tests_offline": {
+  "total": "97/97 on Mac and desktop",
+  "files": {
+   "fakes.py": "ab2f62bb78bc921847302f6c610806edee68a942b694ac69def15a19fcc89b7e",
+   "test_analysis_rules.py": "29e92772024a3fca353bd6281111c3248663bebc993c36e47a66a4d1c6ac5103",
+   "test_analyze.py": "4eef79e4b079293fd10d808b5836b42968bbd08a1375921ee8bed75fdaf8ce66",
+   "test_batch.py": "aefcfda4a8f789eb078e03e9412797d1ddc4e8668fdb59b4b8bfa7546eb7c7b5",
+   "test_bridge_agent.py": "2b177d709dc1d4f22c6187d025d2bc5a1eed902987111cc049012b27056b7e18",
+   "test_end_to_end.py": "9cbb625c445a053ad227eb74a14d2fde7e627425cdd2492bfa1e1924b9e136be",
+   "test_evaluate.py": "e252adebbbb9203969c59aaefa0a8789105599f39056e774f0ddfedb588ec855",
+   "test_fb1.py": "f1cb7750201e6c98a6eb606abfe4197f4f4cf07649dcb7f0849043a107aae52e",
+   "test_tools.py": "433f6180f59160e083a894940e2ad93c286380ffabbacfc9a959bed19d02c9bd"
+  }
+ },
+ "blinding": "No sampled (100-task) trajectory has been run. Only the 5 dev tasks (dev data, not analysed) and one pricing probe ran; dev results are in data/bridge_dev_dryrun/ and docs/d1_bridge_dryrun_report_2026-10-20.md.",
+ "deviation_disclosed_at_seal": "F-b1 rule 1 narrowed before sealing: drop only NEW files whose bytes are not valid UTF-8 (prereg §9 dated note); git-binary (ASCII) new files are kept.",
+ "pending_operational_records": [
+  "image pins for the 100 tasks (bridge_images.json) after the plan-B download: recorded in a dated addendum with its sha256",
+  "AI Studio monthly spend cap must be raised from SGD 30 to about SGD 270 before the formal run (author action)",
+  "formal-run start needs the author's go"
+ ],
+ "not_part_of_seal": "pricing_registry.json may be EXTENDED (new confirmed version strings) during the run; prices of registered versions may not change (checked by analyze.registry_check)"
+}

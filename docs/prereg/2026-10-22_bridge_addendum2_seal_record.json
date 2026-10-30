@@ -1,0 +1,14 @@
+{
+ "what": "Seal of bridge addendum 2 (report-only sensitivity analyses E0/E1), written mid-run before any between-arm comparison was viewed",
+ "sealed_at": "2026-10-22T14:14:24+0800",
+ "author_instruction": "做吧（回复 Claude 的建议：熔断线不动，现在就加一份带日期的补记，只增加只报告的敏感性分析，2026-10-22）",
+ "sha256": {
+  "addendum2": "56c65c6c8edef636cf2e7ed0d3bdccaeae1eb429aedda63cb83685bffb315ca0",
+  "prereg": "69e94eb9e0c64a49106d3e5cfc99b5262c011ff19d6cc6729ab21f51b368031a",
+  "addendum1": "82d733e35a2069fd8338a82f0b5e95edfcc0596e8c2ca43d15561b3b6290f087",
+  "seal2_record": "669b8bf2374976b61a726b03e7b9042cdaf29584a5ad3ccb1d1f0900596cfcb1"
+ },
+ "bridge_code_sha256_unchanged": "d1da6e7a8589bb3e24a41fd201f39c1b53a008f6409979d26b920ad48d478e57",
+ "run_state_at_seal": "formal run in progress (~123/400 slots at 13:46); only unknown counts, termination-code counts and the S/H/W of the 8 unknown slots plus the first slot had been viewed; no between-arm comparison computed",
+ "changes_primary_analysis": false
+}

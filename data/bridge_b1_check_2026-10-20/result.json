@@ -1,0 +1,13 @@
+{
+ "_meta": {"run": "2026-10-20 desktop (WSL2, Docker 29.9.1), bridge code 1868093cea67ec2356812f19ff075e7f21434a9e90a5797a4a971218e3cdd445",
+           "command": ".venv-mini/bin/python -I bridge/tools/check_b1_docker.py --instance pytest-dev__pytest-5631 --dataset-base cb828ebe70b4fa35cd5f9a7ee024272237eab351 --out /tmp/b1check",
+           "api": "none (offline FakeAPI)", "note": "copied from the run's stdout; an earlier run under bridge code ee940644 failed (docker_alive returned None for a vanished container); see addendum §9"},
+ "control": {"code": "CAP_STEP_NODIFF", "why": [], "n_calls": 50, "container_running_at_stop": true,
+             "rule": {"S": "zero", "H": "zero"}, "seconds": 16.1, "container_left_behind": false},
+ "killed": {"code": "ENG_FAIL", "why": ["EXCEPTION", "STEP_EXCEPTION", "CONTAINER_NOT_RUNNING", "NO_EXIT_STATUS"], "n_calls": 3,
+            "container_running_at_stop": false, "rule": {"S": "unknown", "H": "unknown"}, "seconds": 0.8, "container_left_behind": false},
+ "expired": {"code": "ENG_FAIL", "why": ["EXCEPTION", "STEP_EXCEPTION", "CONTAINER_NOT_RUNNING", "NO_EXIT_STATUS"], "n_calls": 3,
+             "container_running_at_stop": false, "rule": {"S": "unknown", "H": "unknown"}, "seconds": 27.1, "container_left_behind": false},
+ "alive_nonexistent": false,
+ "pass": true
+}

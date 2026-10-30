@@ -1,0 +1,380 @@
+{
+ "candidates": [
+  {
+   "id": "pylint-dev__pylint-8898",
+   "arm": "silent",
+   "product": "F",
+   "sha": "aed8f4011ef3adb755d7e3f915508ab8e4e976da63e5fd174d6453378644b487",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pylint-dev__pylint-8898",
+   "arm": "silent",
+   "product": "F_b1",
+   "sha": "aed8f4011ef3adb755d7e3f915508ab8e4e976da63e5fd174d6453378644b487",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pylint-dev__pylint-8898",
+   "arm": "neutral",
+   "product": "F",
+   "sha": "12662f2fc041c17eb306c94eedf65946f56e5ea6a969595ec829f5c548f0edb6",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pylint-dev__pylint-8898",
+   "arm": "neutral",
+   "product": "F_b1",
+   "sha": "12662f2fc041c17eb306c94eedf65946f56e5ea6a969595ec829f5c548f0edb6",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pylint-dev__pylint-8898",
+   "arm": "number",
+   "product": "F",
+   "sha": "8e5f467b2136d5ede498d39e85c906b4afd7dc1135afd9b156def7b1a77b44a4",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pylint-dev__pylint-8898",
+   "arm": "number",
+   "product": "F_b1",
+   "sha": "8e5f467b2136d5ede498d39e85c906b4afd7dc1135afd9b156def7b1a77b44a4",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pylint-dev__pylint-8898",
+   "arm": "bats",
+   "product": "F",
+   "sha": "edd8e9cf77c280fdef3347c7b7dc2a80bdf1d5c525a1d4dbaba89e891e30f632",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pylint-dev__pylint-8898",
+   "arm": "bats",
+   "product": "F_b1",
+   "sha": "edd8e9cf77c280fdef3347c7b7dc2a80bdf1d5c525a1d4dbaba89e891e30f632",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pylint-dev__pylint-4551",
+   "arm": "silent",
+   "product": "F",
+   "sha": "0a2423f05443875c895f342c5374f6df137cbc1332531f90cd2353c3bf17041f",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pylint-dev__pylint-4551",
+   "arm": "silent",
+   "product": "F_b1",
+   "sha": "0a2423f05443875c895f342c5374f6df137cbc1332531f90cd2353c3bf17041f",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pylint-dev__pylint-4551",
+   "arm": "neutral",
+   "product": "F",
+   "sha": "449765a5d18df4b5fc8ca84607f959486094025a2aeac7c616a7211653e5a06d",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pylint-dev__pylint-4551",
+   "arm": "neutral",
+   "product": "F_b1",
+   "sha": "449765a5d18df4b5fc8ca84607f959486094025a2aeac7c616a7211653e5a06d",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pylint-dev__pylint-4551",
+   "arm": "number",
+   "product": "submission",
+   "sha": "3600218147185239268b1399864254e90bd5fe8fa0e56fa18902c84b244786cf",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pylint-dev__pylint-4551",
+   "arm": "number",
+   "product": "F",
+   "sha": "8a66d746aa20e57ace42477c16d4b34dac1f3502f83df3f09a3173f62912ed01",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pylint-dev__pylint-4551",
+   "arm": "number",
+   "product": "F_b1",
+   "sha": "8a66d746aa20e57ace42477c16d4b34dac1f3502f83df3f09a3173f62912ed01",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pylint-dev__pylint-4551",
+   "arm": "bats",
+   "product": "F",
+   "sha": "5e9359a02490b47a676b24d43d04f4755b34bf2d6c7642b4d7702344e6d4845e",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pylint-dev__pylint-4551",
+   "arm": "bats",
+   "product": "F_b1",
+   "sha": "5e9359a02490b47a676b24d43d04f4755b34bf2d6c7642b4d7702344e6d4845e",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "astropy__astropy-13398",
+   "arm": "number",
+   "product": "submission",
+   "sha": "129515cc6db77a7b43dc7442f81c1ce3b831c0309287a61ac522e66273e77949",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5787",
+   "arm": "silent",
+   "product": "F",
+   "sha": "c9a97cbab45857cd5085139bbba1269cc0fdd8b509c35272d9f3d11c774354ae",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5787",
+   "arm": "silent",
+   "product": "F_b1",
+   "sha": "c9a97cbab45857cd5085139bbba1269cc0fdd8b509c35272d9f3d11c774354ae",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5787",
+   "arm": "neutral",
+   "product": "submission",
+   "sha": "5afe7cd0255383fe0363a07a96538a44b6343e226a74fb3d7ab51cd53f21a665",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5787",
+   "arm": "neutral",
+   "product": "F",
+   "sha": "bd3b078c2d52352502f0a38ac894f0d3a9a82b6e9f4c0fadb31051a7691e4eae",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5787",
+   "arm": "neutral",
+   "product": "F_b1",
+   "sha": "bd3b078c2d52352502f0a38ac894f0d3a9a82b6e9f4c0fadb31051a7691e4eae",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5787",
+   "arm": "number",
+   "product": "submission",
+   "sha": "f42b619adf70b3982a55ce14c4af1272095d37b19a02a7c4fc66d82541405161",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5787",
+   "arm": "number",
+   "product": "F",
+   "sha": "772a3f3f53305a9dd0bfeb98855df086f63ed63c433a897a919f3d5fb52c3f2d",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5787",
+   "arm": "number",
+   "product": "F_b1",
+   "sha": "772a3f3f53305a9dd0bfeb98855df086f63ed63c433a897a919f3d5fb52c3f2d",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5787",
+   "arm": "bats",
+   "product": "submission",
+   "sha": "e9eb85b95f758d25a3d070cae773cf6ed2c9b85930e82804b9d5d30da65b0642",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5787",
+   "arm": "bats",
+   "product": "F",
+   "sha": "18c244c98d0ed2cc859bee5cf93059cd1eb6c53fa02159fba706fce9f2368e66",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5787",
+   "arm": "bats",
+   "product": "F_b1",
+   "sha": "18c244c98d0ed2cc859bee5cf93059cd1eb6c53fa02159fba706fce9f2368e66",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5840",
+   "arm": "silent",
+   "product": "submission",
+   "sha": "1c1431aa1dbcd5114a94e9554432be49f7c292d614c46dfb1e5709e1d2effea9",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5840",
+   "arm": "silent",
+   "product": "F",
+   "sha": "773b8f2121b83e25a377127a2df33863d8729812949fe4df71fe5879b0a1fec2",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5840",
+   "arm": "silent",
+   "product": "F_b1",
+   "sha": "773b8f2121b83e25a377127a2df33863d8729812949fe4df71fe5879b0a1fec2",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5840",
+   "arm": "neutral",
+   "product": "submission",
+   "sha": "bd312e1c8e30803b1858c9a93f6ecdef5469e8148258bde4d56461008bcfe8ae",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5840",
+   "arm": "neutral",
+   "product": "F",
+   "sha": "bbff31f1f196034c3c9f9963156415b2aed9165ebb893285e23c6d7b591807a3",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5840",
+   "arm": "neutral",
+   "product": "F_b1",
+   "sha": "bbff31f1f196034c3c9f9963156415b2aed9165ebb893285e23c6d7b591807a3",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5840",
+   "arm": "number",
+   "product": "submission",
+   "sha": "3ead416e9e23412ef3c0c8b0315178549a72921a74a881b0a91d929032032cc7",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5840",
+   "arm": "number",
+   "product": "F",
+   "sha": "949326f1ad5b31fd878a2714b301475dd2b95d8413da5776dbfc5498eb4854ca",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5840",
+   "arm": "number",
+   "product": "F_b1",
+   "sha": "949326f1ad5b31fd878a2714b301475dd2b95d8413da5776dbfc5498eb4854ca",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5840",
+   "arm": "bats",
+   "product": "submission",
+   "sha": "8a3dcd0552a503d0f689a39749169b2d3c8660a6fe274af030f37cd4a25828fb",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5840",
+   "arm": "bats",
+   "product": "F",
+   "sha": "15ec16ab367f845c5490514c5393fff412d985c7450a9cca8f164ed10f411d6e",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  },
+  {
+   "id": "pytest-dev__pytest-5840",
+   "arm": "bats",
+   "product": "F_b1",
+   "sha": "15ec16ab367f845c5490514c5393fff412d985c7450a9cca8f164ed10f411d6e",
+   "criteria_1_2": "pass",
+   "gold": null,
+   "e_class": false
+  }
+ ],
+ "tasks_needing_gold": [
+  "astropy__astropy-13398",
+  "pylint-dev__pylint-4551",
+  "pylint-dev__pylint-8898",
+  "pytest-dev__pytest-5787",
+  "pytest-dev__pytest-5840"
+ ]
+}

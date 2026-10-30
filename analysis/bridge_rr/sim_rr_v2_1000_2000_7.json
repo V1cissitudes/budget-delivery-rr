@@ -1,0 +1,1423 @@
+{
+ "version": "sim_rr v2 (n=394, tied fill, H2b needs L(T)>0)",
+ "n": {
+  "hi": 226,
+  "lo": 168
+ },
+ "reps": 1000,
+ "B": 2000,
+ "seed": 7,
+ "rho": 0.85,
+ "cells": {
+  "i_T18_viaDelivery|u0": {
+   "truth": {
+    "T": 18.1,
+    "dH": -1.6,
+    "J": 19.7,
+    "R0": 29.7,
+    "R1": 10.0,
+    "G": 19.7
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 100.0
+    },
+    "H2": {
+     "reduction": 100.0
+    },
+    "H2b": {
+     "over_half": 99.9,
+     "undetermined": 0.1
+    },
+    "H3": {
+     "undetermined": 92.3,
+     "negative": 7.5,
+     "positive": 0.2
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 1000
+    },
+    "H2": {
+     "reduction": 1000
+    },
+    "H2b": {
+     "over_half": 999,
+     "undetermined": 1
+    },
+    "H3": {
+     "undetermined": 923,
+     "negative": 75,
+     "positive": 2
+    }
+   },
+   "mean_max_unknown_pct": 0.0
+  },
+  "i_T18_viaDelivery|mcar5": {
+   "truth": {
+    "T": 18.1,
+    "dH": -1.6,
+    "J": 19.7,
+    "R0": 29.7,
+    "R1": 10.0,
+    "G": 19.7
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 97.6,
+     "undetermined": 2.4
+    },
+    "H2": {
+     "reduction": 100.0
+    },
+    "H2b": {
+     "over_half": 86.6,
+     "undetermined": 13.4
+    },
+    "H3": {
+     "undetermined": 100.0
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 976,
+     "undetermined": 24
+    },
+    "H2": {
+     "reduction": 1000
+    },
+    "H2b": {
+     "over_half": 866,
+     "undetermined": 134
+    },
+    "H3": {
+     "undetermined": 1000
+    }
+   },
+   "mean_max_unknown_pct": 5.6
+  },
+  "i_T18_viaDelivery|mcar8": {
+   "truth": {
+    "T": 18.1,
+    "dH": -1.6,
+    "J": 19.7,
+    "R0": 29.7,
+    "R1": 10.0,
+    "G": 19.7
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 74.4,
+     "undetermined": 10.8,
+     "fuse": 14.8
+    },
+    "H2": {
+     "reduction": 85.2,
+     "fuse": 14.8
+    },
+    "H2b": {
+     "over_half": 39.5,
+     "undetermined": 45.7,
+     "fuse": 14.8
+    },
+    "H3": {
+     "undetermined": 85.2,
+     "fuse": 14.8
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 744,
+     "undetermined": 108,
+     "fuse": 148
+    },
+    "H2": {
+     "reduction": 852,
+     "fuse": 148
+    },
+    "H2b": {
+     "over_half": 395,
+     "undetermined": 457,
+     "fuse": 148
+    },
+    "H3": {
+     "undetermined": 852,
+     "fuse": 148
+    }
+   },
+   "mean_max_unknown_pct": 8.8
+  },
+  "i_T18_viaDelivery|capped_bats8_sil2": {
+   "truth": {
+    "T": 18.1,
+    "dH": -1.6,
+    "J": 19.7,
+    "R0": 29.7,
+    "R1": 10.0,
+    "G": 19.7
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 100.0
+    },
+    "H2": {
+     "reduction": 100.0
+    },
+    "H2b": {
+     "over_half": 89.5,
+     "undetermined": 10.5
+    },
+    "H3": {
+     "undetermined": 99.8,
+     "negative": 0.2
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 1000
+    },
+    "H2": {
+     "reduction": 1000
+    },
+    "H2b": {
+     "over_half": 895,
+     "undetermined": 105
+    },
+    "H3": {
+     "undetermined": 998,
+     "negative": 2
+    }
+   },
+   "mean_max_unknown_pct": 3.7
+  },
+  "i_T18_viaDelivery|salvaged_bats15": {
+   "truth": {
+    "T": 18.1,
+    "dH": -1.6,
+    "J": 19.7,
+    "R0": 29.7,
+    "R1": 10.0,
+    "G": 19.7
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 100.0
+    },
+    "H2": {
+     "reduction": 100.0
+    },
+    "H2b": {
+     "over_half": 100.0
+    },
+    "H3": {
+     "undetermined": 91.3,
+     "negative": 8.7
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 1000
+    },
+    "H2": {
+     "reduction": 1000
+    },
+    "H2b": {
+     "over_half": 1000
+    },
+    "H3": {
+     "undetermined": 913,
+     "negative": 87
+    }
+   },
+   "mean_max_unknown_pct": 1.5
+  },
+  "ii_T18_beyondDelivery|u0": {
+   "truth": {
+    "T": 18.1,
+    "dH": 16.4,
+    "J": 1.6,
+    "R0": 29.7,
+    "R1": 28.1,
+    "G": 1.6
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 99.9,
+     "undetermined": 0.1
+    },
+    "H2": {
+     "undetermined": 94.8,
+     "reduction": 4.7,
+     "reverse": 0.5
+    },
+    "H2b": {
+     "under_half": 85.9,
+     "undetermined": 14.1
+    },
+    "H3": {
+     "positive": 100.0
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 999,
+     "undetermined": 1
+    },
+    "H2": {
+     "undetermined": 948,
+     "reduction": 47,
+     "reverse": 5
+    },
+    "H2b": {
+     "under_half": 859,
+     "undetermined": 141
+    },
+    "H3": {
+     "positive": 1000
+    }
+   },
+   "mean_max_unknown_pct": 0.0
+  },
+  "ii_T18_beyondDelivery|mcar5": {
+   "truth": {
+    "T": 18.1,
+    "dH": 16.4,
+    "J": 1.6,
+    "R0": 29.7,
+    "R1": 28.1,
+    "G": 1.6
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 98.0,
+     "undetermined": 1.9,
+     "fuse": 0.1
+    },
+    "H2": {
+     "undetermined": 99.1,
+     "reduction": 0.8,
+     "fuse": 0.1
+    },
+    "H2b": {
+     "under_half": 23.1,
+     "undetermined": 76.8,
+     "fuse": 0.1
+    },
+    "H3": {
+     "positive": 99.9,
+     "fuse": 0.1
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 980,
+     "undetermined": 19,
+     "fuse": 1
+    },
+    "H2": {
+     "undetermined": 991,
+     "reduction": 8,
+     "fuse": 1
+    },
+    "H2b": {
+     "under_half": 231,
+     "undetermined": 768,
+     "fuse": 1
+    },
+    "H3": {
+     "positive": 999,
+     "fuse": 1
+    }
+   },
+   "mean_max_unknown_pct": 5.6
+  },
+  "ii_T18_beyondDelivery|mcar8": {
+   "truth": {
+    "T": 18.1,
+    "dH": 16.4,
+    "J": 1.6,
+    "R0": 29.7,
+    "R1": 28.1,
+    "G": 1.6
+   },
+   "rates_pct": {
+    "H1": {
+     "undetermined": 13.1,
+     "pass": 73.0,
+     "fuse": 13.9
+    },
+    "H2": {
+     "undetermined": 86.0,
+     "fuse": 13.9,
+     "reduction": 0.1
+    },
+    "H2b": {
+     "undetermined": 83.0,
+     "fuse": 13.9,
+     "under_half": 3.1
+    },
+    "H3": {
+     "positive": 84.2,
+     "fuse": 13.9,
+     "undetermined": 1.9
+    }
+   },
+   "counts": {
+    "H1": {
+     "undetermined": 131,
+     "pass": 730,
+     "fuse": 139
+    },
+    "H2": {
+     "undetermined": 860,
+     "fuse": 139,
+     "reduction": 1
+    },
+    "H2b": {
+     "undetermined": 830,
+     "fuse": 139,
+     "under_half": 31
+    },
+    "H3": {
+     "positive": 842,
+     "fuse": 139,
+     "undetermined": 19
+    }
+   },
+   "mean_max_unknown_pct": 8.8
+  },
+  "ii_T18_beyondDelivery|capped_bats8_sil2": {
+   "truth": {
+    "T": 18.1,
+    "dH": 16.4,
+    "J": 1.6,
+    "R0": 29.7,
+    "R1": 28.1,
+    "G": 1.6
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 100.0
+    },
+    "H2": {
+     "undetermined": 99.2,
+     "reduction": 0.8
+    },
+    "H2b": {
+     "under_half": 40.9,
+     "undetermined": 59.1
+    },
+    "H3": {
+     "positive": 100.0
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 1000
+    },
+    "H2": {
+     "undetermined": 992,
+     "reduction": 8
+    },
+    "H2b": {
+     "under_half": 409,
+     "undetermined": 591
+    },
+    "H3": {
+     "positive": 1000
+    }
+   },
+   "mean_max_unknown_pct": 3.7
+  },
+  "ii_T18_beyondDelivery|salvaged_bats15": {
+   "truth": {
+    "T": 18.1,
+    "dH": 16.4,
+    "J": 1.6,
+    "R0": 29.7,
+    "R1": 28.1,
+    "G": 1.6
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 100.0
+    },
+    "H2": {
+     "undetermined": 95.1,
+     "reduction": 4.9
+    },
+    "H2b": {
+     "undetermined": 77.8,
+     "under_half": 22.2
+    },
+    "H3": {
+     "positive": 100.0
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 1000
+    },
+    "H2": {
+     "undetermined": 951,
+     "reduction": 49
+    },
+    "H2b": {
+     "undetermined": 778,
+     "under_half": 222
+    },
+    "H3": {
+     "positive": 1000
+    }
+   },
+   "mean_max_unknown_pct": 4.3
+  },
+  "vi_T12_J0.4T|u0": {
+   "truth": {
+    "T": 12.4,
+    "dH": 7.5,
+    "J": 4.9,
+    "R0": 29.7,
+    "R1": 24.8,
+    "G": 4.9
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 87.7,
+     "undetermined": 12.3
+    },
+    "H2": {
+     "reduction": 44.1,
+     "undetermined": 55.9
+    },
+    "H2b": {
+     "undetermined": 93.7,
+     "over_half": 0.1,
+     "under_half": 6.2
+    },
+    "H3": {
+     "positive": 93.0,
+     "undetermined": 7.0
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 877,
+     "undetermined": 123
+    },
+    "H2": {
+     "reduction": 441,
+     "undetermined": 559
+    },
+    "H2b": {
+     "undetermined": 937,
+     "over_half": 1,
+     "under_half": 62
+    },
+    "H3": {
+     "positive": 930,
+     "undetermined": 70
+    }
+   },
+   "mean_max_unknown_pct": 0.0
+  },
+  "vi_T12_J0.4T|mcar5": {
+   "truth": {
+    "T": 12.4,
+    "dH": 7.5,
+    "J": 4.9,
+    "R0": 29.7,
+    "R1": 24.8,
+    "G": 4.9
+   },
+   "rates_pct": {
+    "H1": {
+     "undetermined": 70.2,
+     "pass": 29.8
+    },
+    "H2": {
+     "undetermined": 95.5,
+     "reduction": 4.5
+    },
+    "H2b": {
+     "undetermined": 97.8,
+     "not_evaluated": 2.2
+    },
+    "H3": {
+     "undetermined": 76.3,
+     "positive": 23.7
+    }
+   },
+   "counts": {
+    "H1": {
+     "undetermined": 702,
+     "pass": 298
+    },
+    "H2": {
+     "undetermined": 955,
+     "reduction": 45
+    },
+    "H2b": {
+     "undetermined": 978,
+     "not_evaluated": 22
+    },
+    "H3": {
+     "undetermined": 763,
+     "positive": 237
+    }
+   },
+   "mean_max_unknown_pct": 5.6
+  },
+  "vi_T12_J0.4T|mcar8": {
+   "truth": {
+    "T": 12.4,
+    "dH": 7.5,
+    "J": 4.9,
+    "R0": 29.7,
+    "R1": 24.8,
+    "G": 4.9
+   },
+   "rates_pct": {
+    "H1": {
+     "undetermined": 75.8,
+     "pass": 9.6,
+     "fuse": 14.6
+    },
+    "H2": {
+     "undetermined": 84.7,
+     "fuse": 14.6,
+     "reduction": 0.7
+    },
+    "H2b": {
+     "undetermined": 72.0,
+     "not_evaluated": 13.4,
+     "fuse": 14.6
+    },
+    "H3": {
+     "undetermined": 82.0,
+     "fuse": 14.6,
+     "positive": 3.4
+    }
+   },
+   "counts": {
+    "H1": {
+     "undetermined": 758,
+     "pass": 96,
+     "fuse": 146
+    },
+    "H2": {
+     "undetermined": 847,
+     "fuse": 146,
+     "reduction": 7
+    },
+    "H2b": {
+     "undetermined": 720,
+     "not_evaluated": 134,
+     "fuse": 146
+    },
+    "H3": {
+     "undetermined": 820,
+     "fuse": 146,
+     "positive": 34
+    }
+   },
+   "mean_max_unknown_pct": 8.8
+  },
+  "vi_T12_J0.4T|capped_bats8_sil2": {
+   "truth": {
+    "T": 12.4,
+    "dH": 7.5,
+    "J": 4.9,
+    "R0": 29.7,
+    "R1": 24.8,
+    "G": 4.9
+   },
+   "rates_pct": {
+    "H1": {
+     "undetermined": 11.2,
+     "pass": 88.7,
+     "below": 0.1
+    },
+    "H2": {
+     "undetermined": 92.9,
+     "reduction": 7.1
+    },
+    "H2b": {
+     "undetermined": 99.8,
+     "under_half": 0.2
+    },
+    "H3": {
+     "undetermined": 44.7,
+     "positive": 55.3
+    }
+   },
+   "counts": {
+    "H1": {
+     "undetermined": 112,
+     "pass": 887,
+     "below": 1
+    },
+    "H2": {
+     "undetermined": 929,
+     "reduction": 71
+    },
+    "H2b": {
+     "undetermined": 998,
+     "under_half": 2
+    },
+    "H3": {
+     "undetermined": 447,
+     "positive": 553
+    }
+   },
+   "mean_max_unknown_pct": 4.2
+  },
+  "vi_T12_J0.4T|salvaged_bats15": {
+   "truth": {
+    "T": 12.4,
+    "dH": 7.5,
+    "J": 4.9,
+    "R0": 29.7,
+    "R1": 24.8,
+    "G": 4.9
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 86.8,
+     "undetermined": 13.1,
+     "below": 0.1
+    },
+    "H2": {
+     "undetermined": 59.5,
+     "reduction": 40.5
+    },
+    "H2b": {
+     "undetermined": 99.5,
+     "over_half": 0.4,
+     "under_half": 0.1
+    },
+    "H3": {
+     "undetermined": 66.9,
+     "positive": 33.1
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 868,
+     "undetermined": 131,
+     "below": 1
+    },
+    "H2": {
+     "undetermined": 595,
+     "reduction": 405
+    },
+    "H2b": {
+     "undetermined": 995,
+     "over_half": 4,
+     "under_half": 1
+    },
+    "H3": {
+     "undetermined": 669,
+     "positive": 331
+    }
+   },
+   "mean_max_unknown_pct": 3.7
+  },
+  "ix_both_T18_J0.6T|u0": {
+   "truth": {
+    "T": 18.1,
+    "dH": 5.7,
+    "J": 12.4,
+    "R0": 29.7,
+    "R1": 17.3,
+    "G": 12.4
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 100.0
+    },
+    "H2": {
+     "reduction": 99.5,
+     "undetermined": 0.5
+    },
+    "H2b": {
+     "undetermined": 69.4,
+     "over_half": 30.6
+    },
+    "H3": {
+     "positive": 73.9,
+     "undetermined": 26.1
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 1000
+    },
+    "H2": {
+     "reduction": 995,
+     "undetermined": 5
+    },
+    "H2b": {
+     "undetermined": 694,
+     "over_half": 306
+    },
+    "H3": {
+     "positive": 739,
+     "undetermined": 261
+    }
+   },
+   "mean_max_unknown_pct": 0.0
+  },
+  "ix_both_T18_J0.6T|mcar5": {
+   "truth": {
+    "T": 18.1,
+    "dH": 5.7,
+    "J": 12.4,
+    "R0": 29.7,
+    "R1": 17.3,
+    "G": 12.4
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 97.6,
+     "undetermined": 2.4
+    },
+    "H2": {
+     "reduction": 88.0,
+     "undetermined": 12.0
+    },
+    "H2b": {
+     "undetermined": 98.6,
+     "over_half": 1.4
+    },
+    "H3": {
+     "undetermined": 91.9,
+     "positive": 8.1
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 976,
+     "undetermined": 24
+    },
+    "H2": {
+     "reduction": 880,
+     "undetermined": 120
+    },
+    "H2b": {
+     "undetermined": 986,
+     "over_half": 14
+    },
+    "H3": {
+     "undetermined": 919,
+     "positive": 81
+    }
+   },
+   "mean_max_unknown_pct": 5.6
+  },
+  "ix_both_T18_J0.6T|mcar8": {
+   "truth": {
+    "T": 18.1,
+    "dH": 5.7,
+    "J": 12.4,
+    "R0": 29.7,
+    "R1": 17.3,
+    "G": 12.4
+   },
+   "rates_pct": {
+    "H1": {
+     "undetermined": 12.9,
+     "pass": 74.3,
+     "fuse": 12.8
+    },
+    "H2": {
+     "undetermined": 30.5,
+     "reduction": 56.7,
+     "fuse": 12.8
+    },
+    "H2b": {
+     "undetermined": 87.2,
+     "fuse": 12.8
+    },
+    "H3": {
+     "undetermined": 86.6,
+     "fuse": 12.8,
+     "positive": 0.6
+    }
+   },
+   "counts": {
+    "H1": {
+     "undetermined": 129,
+     "pass": 743,
+     "fuse": 128
+    },
+    "H2": {
+     "undetermined": 305,
+     "reduction": 567,
+     "fuse": 128
+    },
+    "H2b": {
+     "undetermined": 872,
+     "fuse": 128
+    },
+    "H3": {
+     "undetermined": 866,
+     "fuse": 128,
+     "positive": 6
+    }
+   },
+   "mean_max_unknown_pct": 8.7
+  },
+  "ix_both_T18_J0.6T|capped_bats8_sil2": {
+   "truth": {
+    "T": 18.1,
+    "dH": 5.7,
+    "J": 12.4,
+    "R0": 29.7,
+    "R1": 17.3,
+    "G": 12.4
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 100.0
+    },
+    "H2": {
+     "reduction": 93.2,
+     "undetermined": 6.8
+    },
+    "H2b": {
+     "undetermined": 97.6,
+     "over_half": 2.4
+    },
+    "H3": {
+     "undetermined": 70.4,
+     "positive": 29.6
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 1000
+    },
+    "H2": {
+     "reduction": 932,
+     "undetermined": 68
+    },
+    "H2b": {
+     "undetermined": 976,
+     "over_half": 24
+    },
+    "H3": {
+     "undetermined": 704,
+     "positive": 296
+    }
+   },
+   "mean_max_unknown_pct": 3.7
+  },
+  "ix_both_T18_J0.6T|salvaged_bats15": {
+   "truth": {
+    "T": 18.1,
+    "dH": 5.7,
+    "J": 12.4,
+    "R0": 29.7,
+    "R1": 17.3,
+    "G": 12.4
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 100.0
+    },
+    "H2": {
+     "reduction": 99.8,
+     "undetermined": 0.2
+    },
+    "H2b": {
+     "over_half": 31.9,
+     "undetermined": 68.1
+    },
+    "H3": {
+     "positive": 21.9,
+     "undetermined": 78.1
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 1000
+    },
+    "H2": {
+     "reduction": 998,
+     "undetermined": 2
+    },
+    "H2b": {
+     "over_half": 319,
+     "undetermined": 681
+    },
+    "H3": {
+     "positive": 219,
+     "undetermined": 781
+    }
+   },
+   "mean_max_unknown_pct": 2.6
+  },
+  "x_reversal_T18_dHneg|u0": {
+   "truth": {
+    "T": 18.1,
+    "dH": -8.8,
+    "J": 26.8,
+    "R0": 29.7,
+    "R1": 2.9,
+    "G": 26.8
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 99.9,
+     "undetermined": 0.1
+    },
+    "H2": {
+     "reduction": 100.0
+    },
+    "H2b": {
+     "over_half": 100.0
+    },
+    "H3": {
+     "negative": 98.4,
+     "undetermined": 1.6
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 999,
+     "undetermined": 1
+    },
+    "H2": {
+     "reduction": 1000
+    },
+    "H2b": {
+     "over_half": 1000
+    },
+    "H3": {
+     "negative": 984,
+     "undetermined": 16
+    }
+   },
+   "mean_max_unknown_pct": 0.0
+  },
+  "x_reversal_T18_dHneg|mcar5": {
+   "truth": {
+    "T": 18.1,
+    "dH": -8.8,
+    "J": 26.8,
+    "R0": 29.7,
+    "R1": 2.9,
+    "G": 26.8
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 97.1,
+     "undetermined": 2.9
+    },
+    "H2": {
+     "reduction": 100.0
+    },
+    "H2b": {
+     "over_half": 99.9,
+     "not_evaluated": 0.1
+    },
+    "H3": {
+     "undetermined": 57.4,
+     "negative": 42.6
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 971,
+     "undetermined": 29
+    },
+    "H2": {
+     "reduction": 1000
+    },
+    "H2b": {
+     "over_half": 999,
+     "not_evaluated": 1
+    },
+    "H3": {
+     "undetermined": 574,
+     "negative": 426
+    }
+   },
+   "mean_max_unknown_pct": 5.6
+  },
+  "x_reversal_T18_dHneg|mcar8": {
+   "truth": {
+    "T": 18.1,
+    "dH": -8.8,
+    "J": 26.8,
+    "R0": 29.7,
+    "R1": 2.9,
+    "G": 26.8
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 73.3,
+     "fuse": 14.2,
+     "undetermined": 12.5
+    },
+    "H2": {
+     "reduction": 85.8,
+     "fuse": 14.2
+    },
+    "H2b": {
+     "over_half": 85.7,
+     "fuse": 14.2,
+     "not_evaluated": 0.1
+    },
+    "H3": {
+     "undetermined": 79.9,
+     "fuse": 14.2,
+     "negative": 5.9
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 733,
+     "fuse": 142,
+     "undetermined": 125
+    },
+    "H2": {
+     "reduction": 858,
+     "fuse": 142
+    },
+    "H2b": {
+     "over_half": 857,
+     "fuse": 142,
+     "not_evaluated": 1
+    },
+    "H3": {
+     "undetermined": 799,
+     "fuse": 142,
+     "negative": 59
+    }
+   },
+   "mean_max_unknown_pct": 8.8
+  },
+  "x_reversal_T18_dHneg|capped_bats8_sil2": {
+   "truth": {
+    "T": 18.1,
+    "dH": -8.8,
+    "J": 26.8,
+    "R0": 29.7,
+    "R1": 2.9,
+    "G": 26.8
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 100.0
+    },
+    "H2": {
+     "reduction": 100.0
+    },
+    "H2b": {
+     "over_half": 100.0
+    },
+    "H3": {
+     "negative": 44.6,
+     "undetermined": 55.4
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 1000
+    },
+    "H2": {
+     "reduction": 1000
+    },
+    "H2b": {
+     "over_half": 1000
+    },
+    "H3": {
+     "negative": 446,
+     "undetermined": 554
+    }
+   },
+   "mean_max_unknown_pct": 3.8
+  },
+  "x_reversal_T18_dHneg|salvaged_bats15": {
+   "truth": {
+    "T": 18.1,
+    "dH": -8.8,
+    "J": 26.8,
+    "R0": 29.7,
+    "R1": 2.9,
+    "G": 26.8
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 100.0
+    },
+    "H2": {
+     "reduction": 100.0
+    },
+    "H2b": {
+     "over_half": 100.0
+    },
+    "H3": {
+     "negative": 97.9,
+     "undetermined": 2.1
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 1000
+    },
+    "H2": {
+     "reduction": 1000
+    },
+    "H2b": {
+     "over_half": 1000
+    },
+    "H3": {
+     "negative": 979,
+     "undetermined": 21
+    }
+   },
+   "mean_max_unknown_pct": 0.4
+  },
+  "iv_T8_harmH|u0": {
+   "truth": {
+    "T": 9.3,
+    "dH": -13.4,
+    "J": 22.8,
+    "R0": 29.7,
+    "R1": 6.9,
+    "G": 22.8
+   },
+   "rates_pct": {
+    "H1": {
+     "undetermined": 57.7,
+     "below": 7.0,
+     "pass": 35.3
+    },
+    "H2": {
+     "reduction": 100.0
+    },
+    "H2b": {
+     "over_half": 99.8,
+     "not_evaluated": 0.2
+    },
+    "H3": {
+     "negative": 100.0
+    }
+   },
+   "counts": {
+    "H1": {
+     "undetermined": 577,
+     "below": 70,
+     "pass": 353
+    },
+    "H2": {
+     "reduction": 1000
+    },
+    "H2b": {
+     "over_half": 998,
+     "not_evaluated": 2
+    },
+    "H3": {
+     "negative": 1000
+    }
+   },
+   "mean_max_unknown_pct": 0.0
+  },
+  "iv_T8_harmH|mcar5": {
+   "truth": {
+    "T": 9.3,
+    "dH": -13.4,
+    "J": 22.8,
+    "R0": 29.7,
+    "R1": 6.9,
+    "G": 22.8
+   },
+   "rates_pct": {
+    "H1": {
+     "undetermined": 97.4,
+     "pass": 2.4,
+     "below": 0.2
+    },
+    "H2": {
+     "reduction": 100.0
+    },
+    "H2b": {
+     "over_half": 78.1,
+     "not_evaluated": 21.9
+    },
+    "H3": {
+     "negative": 94.0,
+     "undetermined": 6.0
+    }
+   },
+   "counts": {
+    "H1": {
+     "undetermined": 974,
+     "pass": 24,
+     "below": 2
+    },
+    "H2": {
+     "reduction": 1000
+    },
+    "H2b": {
+     "over_half": 781,
+     "not_evaluated": 219
+    },
+    "H3": {
+     "negative": 940,
+     "undetermined": 60
+    }
+   },
+   "mean_max_unknown_pct": 5.6
+  },
+  "iv_T8_harmH|mcar8": {
+   "truth": {
+    "T": 9.3,
+    "dH": -13.4,
+    "J": 22.8,
+    "R0": 29.7,
+    "R1": 6.9,
+    "G": 22.8
+   },
+   "rates_pct": {
+    "H1": {
+     "undetermined": 86.8,
+     "fuse": 13.1,
+     "pass": 0.1
+    },
+    "H2": {
+     "reduction": 86.9,
+     "fuse": 13.1
+    },
+    "H2b": {
+     "over_half": 35.9,
+     "not_evaluated": 51.0,
+     "fuse": 13.1
+    },
+    "H3": {
+     "negative": 51.8,
+     "undetermined": 35.1,
+     "fuse": 13.1
+    }
+   },
+   "counts": {
+    "H1": {
+     "undetermined": 868,
+     "fuse": 131,
+     "pass": 1
+    },
+    "H2": {
+     "reduction": 869,
+     "fuse": 131
+    },
+    "H2b": {
+     "over_half": 359,
+     "not_evaluated": 510,
+     "fuse": 131
+    },
+    "H3": {
+     "negative": 518,
+     "undetermined": 351,
+     "fuse": 131
+    }
+   },
+   "mean_max_unknown_pct": 8.8
+  },
+  "iv_T8_harmH|capped_bats8_sil2": {
+   "truth": {
+    "T": 9.3,
+    "dH": -13.4,
+    "J": 22.8,
+    "R0": 29.7,
+    "R1": 6.9,
+    "G": 22.8
+   },
+   "rates_pct": {
+    "H1": {
+     "undetermined": 55.4,
+     "below": 7.6,
+     "pass": 37.0
+    },
+    "H2": {
+     "reduction": 100.0
+    },
+    "H2b": {
+     "over_half": 99.8,
+     "not_evaluated": 0.2
+    },
+    "H3": {
+     "negative": 94.8,
+     "undetermined": 5.2
+    }
+   },
+   "counts": {
+    "H1": {
+     "undetermined": 554,
+     "below": 76,
+     "pass": 370
+    },
+    "H2": {
+     "reduction": 1000
+    },
+    "H2b": {
+     "over_half": 998,
+     "not_evaluated": 2
+    },
+    "H3": {
+     "negative": 948,
+     "undetermined": 52
+    }
+   },
+   "mean_max_unknown_pct": 4.4
+  },
+  "iv_T8_harmH|salvaged_bats15": {
+   "truth": {
+    "T": 9.3,
+    "dH": -13.4,
+    "J": 22.8,
+    "R0": 29.7,
+    "R1": 6.9,
+    "G": 22.8
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 35.2,
+     "undetermined": 58.2,
+     "below": 6.6
+    },
+    "H2": {
+     "reduction": 100.0
+    },
+    "H2b": {
+     "over_half": 99.6,
+     "not_evaluated": 0.4
+    },
+    "H3": {
+     "negative": 100.0
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 352,
+     "undetermined": 582,
+     "below": 66
+    },
+    "H2": {
+     "reduction": 1000
+    },
+    "H2b": {
+     "over_half": 996,
+     "not_evaluated": 4
+    },
+    "H3": {
+     "negative": 1000
+    }
+   },
+   "mean_max_unknown_pct": 1.1
+  }
+ }
+}
