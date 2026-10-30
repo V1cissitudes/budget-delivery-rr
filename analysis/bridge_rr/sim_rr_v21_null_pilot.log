@@ -1,0 +1,2 @@
+[    99s] iii_null pilot truth T=0.0 dH=0.0 G=0.0 | H1 {'below': 91.4, 'fuse': 8.6, 'undetermined': 0.0} | H2 {'undetermined': 91.4, 'fuse': 8.6} | H2b {'not_evaluated': 91.1, 'fuse': 8.6, 'undetermined': 0.3} | H3 {'undetermined': 91.4, 'fuse': 8.6}
+wrote <repo>/analysis/bridge_rr/sim_rr_v2_10000_2000_15.json

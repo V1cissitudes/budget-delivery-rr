@@ -1,0 +1,64 @@
+{
+ "version": "sim_rr v2 (n=394, tied fill, H2b needs L(T)>0)",
+ "n": {
+  "hi": 226,
+  "lo": 168
+ },
+ "reps": 10000,
+ "B": 2000,
+ "seed": 15,
+ "rho": 0.85,
+ "cells": {
+  "iii_null|pilot": {
+   "truth": {
+    "T": 0.0,
+    "dH": 0.0,
+    "J": 0.0,
+    "R0": 29.7,
+    "R1": 29.7,
+    "G": 0.0
+   },
+   "rates_pct": {
+    "H1": {
+     "below": 91.4,
+     "fuse": 8.6,
+     "undetermined": 0.0
+    },
+    "H2": {
+     "undetermined": 91.4,
+     "fuse": 8.6
+    },
+    "H2b": {
+     "not_evaluated": 91.1,
+     "fuse": 8.6,
+     "undetermined": 0.3
+    },
+    "H3": {
+     "undetermined": 91.4,
+     "fuse": 8.6
+    }
+   },
+   "counts": {
+    "H1": {
+     "below": 9139,
+     "fuse": 859,
+     "undetermined": 2
+    },
+    "H2": {
+     "undetermined": 9141,
+     "fuse": 859
+    },
+    "H2b": {
+     "not_evaluated": 9110,
+     "fuse": 859,
+     "undetermined": 31
+    },
+    "H3": {
+     "undetermined": 9141,
+     "fuse": 859
+    }
+   },
+   "mean_max_unknown_pct": 8.4
+  }
+ }
+}

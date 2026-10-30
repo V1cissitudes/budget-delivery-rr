@@ -1,0 +1,333 @@
+{
+ "version": "sim_rr v2 (n=394, tied fill, H2b needs L(T)>0)",
+ "n": {
+  "hi": 226,
+  "lo": 168
+ },
+ "reps": 1000,
+ "B": 2000,
+ "seed": 17,
+ "rho": 0.85,
+ "cells": {
+  "i_T18_viaDelivery|pilot": {
+   "truth": {
+    "T": 18.1,
+    "dH": -1.6,
+    "J": 19.7,
+    "R0": 29.7,
+    "R1": 10.0,
+    "G": 19.7
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 95.9,
+     "fuse": 4.1
+    },
+    "H2": {
+     "reduction": 95.6,
+     "fuse": 4.1,
+     "undetermined": 0.3
+    },
+    "H2b": {
+     "over_half": 25.8,
+     "undetermined": 70.1,
+     "fuse": 4.1
+    },
+    "H3": {
+     "undetermined": 95.9,
+     "fuse": 4.1
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 959,
+     "fuse": 41
+    },
+    "H2": {
+     "reduction": 956,
+     "fuse": 41,
+     "undetermined": 3
+    },
+    "H2b": {
+     "over_half": 258,
+     "undetermined": 701,
+     "fuse": 41
+    },
+    "H3": {
+     "undetermined": 959,
+     "fuse": 41
+    }
+   },
+   "mean_max_unknown_pct": 7.8
+  },
+  "ii_T18_beyondDelivery|pilot": {
+   "truth": {
+    "T": 18.1,
+    "dH": 16.4,
+    "J": 1.6,
+    "R0": 29.7,
+    "R1": 28.1,
+    "G": 1.6
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 95.4,
+     "undetermined": 0.2,
+     "fuse": 4.4
+    },
+    "H2": {
+     "undetermined": 95.6,
+     "fuse": 4.4
+    },
+    "H2b": {
+     "undetermined": 93.3,
+     "under_half": 2.3,
+     "fuse": 4.4
+    },
+    "H3": {
+     "undetermined": 6.0,
+     "positive": 89.6,
+     "fuse": 4.4
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 954,
+     "undetermined": 2,
+     "fuse": 44
+    },
+    "H2": {
+     "undetermined": 956,
+     "fuse": 44
+    },
+    "H2b": {
+     "undetermined": 933,
+     "under_half": 23,
+     "fuse": 44
+    },
+    "H3": {
+     "undetermined": 60,
+     "positive": 896,
+     "fuse": 44
+    }
+   },
+   "mean_max_unknown_pct": 7.9
+  },
+  "vi_T12_J0.4T|pilot": {
+   "truth": {
+    "T": 12.4,
+    "dH": 7.5,
+    "J": 4.9,
+    "R0": 29.7,
+    "R1": 24.8,
+    "G": 4.9
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 67.7,
+     "undetermined": 27.7,
+     "fuse": 4.6
+    },
+    "H2": {
+     "undetermined": 95.1,
+     "fuse": 4.6,
+     "reduction": 0.3
+    },
+    "H2b": {
+     "undetermined": 95.4,
+     "fuse": 4.6
+    },
+    "H3": {
+     "undetermined": 94.1,
+     "positive": 1.3,
+     "fuse": 4.6
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 677,
+     "undetermined": 277,
+     "fuse": 46
+    },
+    "H2": {
+     "undetermined": 951,
+     "fuse": 46,
+     "reduction": 3
+    },
+    "H2b": {
+     "undetermined": 954,
+     "fuse": 46
+    },
+    "H3": {
+     "undetermined": 941,
+     "positive": 13,
+     "fuse": 46
+    }
+   },
+   "mean_max_unknown_pct": 8.0
+  },
+  "ix_both_T18_J0.6T|pilot": {
+   "truth": {
+    "T": 18.1,
+    "dH": 5.7,
+    "J": 12.4,
+    "R0": 29.7,
+    "R1": 17.3,
+    "G": 12.4
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 95.0,
+     "fuse": 4.8,
+     "undetermined": 0.2
+    },
+    "H2": {
+     "undetermined": 39.5,
+     "reduction": 55.7,
+     "fuse": 4.8
+    },
+    "H2b": {
+     "undetermined": 95.2,
+     "fuse": 4.8
+    },
+    "H3": {
+     "undetermined": 95.0,
+     "fuse": 4.8,
+     "positive": 0.2
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 950,
+     "fuse": 48,
+     "undetermined": 2
+    },
+    "H2": {
+     "undetermined": 395,
+     "reduction": 557,
+     "fuse": 48
+    },
+    "H2b": {
+     "undetermined": 952,
+     "fuse": 48
+    },
+    "H3": {
+     "undetermined": 950,
+     "fuse": 48,
+     "positive": 2
+    }
+   },
+   "mean_max_unknown_pct": 7.9
+  },
+  "x_reversal_T18_dHneg|pilot": {
+   "truth": {
+    "T": 18.1,
+    "dH": -8.8,
+    "J": 26.8,
+    "R0": 29.7,
+    "R1": 2.9,
+    "G": 26.8
+   },
+   "rates_pct": {
+    "H1": {
+     "pass": 94.8,
+     "fuse": 5.0,
+     "undetermined": 0.2
+    },
+    "H2": {
+     "reduction": 95.0,
+     "fuse": 5.0
+    },
+    "H2b": {
+     "over_half": 94.4,
+     "fuse": 5.0,
+     "undetermined": 0.6
+    },
+    "H3": {
+     "undetermined": 92.8,
+     "negative": 2.2,
+     "fuse": 5.0
+    }
+   },
+   "counts": {
+    "H1": {
+     "pass": 948,
+     "fuse": 50,
+     "undetermined": 2
+    },
+    "H2": {
+     "reduction": 950,
+     "fuse": 50
+    },
+    "H2b": {
+     "over_half": 944,
+     "fuse": 50,
+     "undetermined": 6
+    },
+    "H3": {
+     "undetermined": 928,
+     "negative": 22,
+     "fuse": 50
+    }
+   },
+   "mean_max_unknown_pct": 7.9
+  },
+  "iv_T8_harmH|pilot": {
+   "truth": {
+    "T": 9.3,
+    "dH": -13.4,
+    "J": 22.8,
+    "R0": 29.7,
+    "R1": 6.9,
+    "G": 22.8
+   },
+   "rates_pct": {
+    "H1": {
+     "undetermined": 76.2,
+     "pass": 17.9,
+     "below": 1.3,
+     "fuse": 4.6
+    },
+    "H2": {
+     "reduction": 95.4,
+     "fuse": 4.6
+    },
+    "H2b": {
+     "over_half": 92.9,
+     "undetermined": 1.8,
+     "fuse": 4.6,
+     "not_evaluated": 0.7
+    },
+    "H3": {
+     "undetermined": 61.6,
+     "negative": 33.8,
+     "fuse": 4.6
+    }
+   },
+   "counts": {
+    "H1": {
+     "undetermined": 762,
+     "pass": 179,
+     "below": 13,
+     "fuse": 46
+    },
+    "H2": {
+     "reduction": 954,
+     "fuse": 46
+    },
+    "H2b": {
+     "over_half": 929,
+     "undetermined": 18,
+     "fuse": 46,
+     "not_evaluated": 7
+    },
+    "H3": {
+     "undetermined": 616,
+     "negative": 338,
+     "fuse": 46
+    }
+   },
+   "mean_max_unknown_pct": 8.1
+  }
+ }
+}

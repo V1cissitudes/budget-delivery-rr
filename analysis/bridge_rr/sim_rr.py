@@ -1,4 +1,5 @@
 """Operating characteristics of the registered (Stage 1, v2) rules at n = 394 (strata 226 / 168), two arms.
+v2.1 (2026-10-31, after the second full-text review): "pilot" unknown pattern added;
 v2 (2026-10-31, after the full-text review): n = 394 (the five development tasks removed: 2 hi, 3 lo); a submitted
 trajectory with unknown verdict is filled with S = H (tied_fill); H2b is evaluated only when L_97.5(T) > 0; new boundary
 scenario xvii_boundary_G0 (T ~ 18, dH = T, G = 0); --unk selects unknown patterns.
@@ -62,6 +63,13 @@ def gen(sc, rho, unk_spec, rng):
                 u_ = "H"
             elif kind == "capped_salvaged" and s == 0 and h == 1 and rng.random() < r:
                 u_ = "H"
+            elif kind == "pilot":
+                # pilot-matched composition (v2.1): H lost in a share of non-successful (capped-like) runs and the verdict
+                # lost (tied, H = S) in a share of successful runs; rates set so that the arm-level unknown rate matches
+                # the prior study (silent 7/100 = 6 capped lost H + 1 submitted lost verdict; prompt 5/100 = 3 + 2)
+                k = rng.random()
+                if s == 0 and k < rates["capped"]: u_ = "H"
+                elif s == 1 and k < rates["tied"]: u_ = "TIED"
             if u_ == "H": h = None
             elif u_ == "S": s = None
             elif u_ == "ENG": s = h = None
@@ -96,6 +104,7 @@ def scen_all():
                                  bats={"hi": (0.38, SIL["hi"][1]), "lo": (0.745, SIL["lo"][1])})
     return s
 UNK = {k: S4.UNK[k] for k in ("u0", "mcar5", "mcar8", "capped_bats8_sil2", "salvaged_bats15")}
+UNK["pilot"] = ("pilot", {"capped": 0.105, "tied": 0.025})   # silent ~0.105*0.65+0.025*0.35 = 7.7%; prompt ~0.105*0.47+0.025*0.53 = 6.3%
 
 
 def main():
