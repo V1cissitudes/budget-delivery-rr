@@ -104,7 +104,7 @@ def scen_all():
                                  bats={"hi": (0.38, SIL["hi"][1]), "lo": (0.745, SIL["lo"][1])})
     return s
 UNK = {k: S4.UNK[k] for k in ("u0", "mcar5", "mcar8", "capped_bats8_sil2", "salvaged_bats15")}
-UNK["pilot"] = ("pilot", {"capped": 0.105, "tied": 0.025})   # silent ~0.105*0.65+0.025*0.35 = 7.7%; prompt ~0.105*0.47+0.025*0.53 = 6.3%
+UNK["pilot"] = ("pilot", {"capped": 0.105, "tied": 0.025})   # generator scenario i: silent 0.105*0.66+0.025*0.34 = 7.8%; prompt 0.105*0.47+0.025*0.53 = 6.3% (prior study 7%, 5%)
 
 
 def main():
